@@ -1,0 +1,117 @@
+/* *{
+
+} */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid rgba(128,128,128, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: rgba(101, 119, 179, 1);
+  color: #fff;
+  border-radius: 4px;
+  margin: 0 5px;
+  font-size: 2em;
+}
+
+.input {
+  width: 100px;
+  height: 60px;
+  border: none;
+  outline: none;
+  background-color: rgba(101, 119, 179, .2);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.todo{
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.todo-list {
+  width: 320px;
+  height: auto;
+}
+
+.text-btn {
+  width: 100%;
+  height: 45px;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text {
+  width: 260px;
+  height: 100%;
+  outline: none;
+  background-color: aliceblue;
+  border: none;
+  padding: 0 0 0 8px;
+  letter-spacing: 1px;
+  font-size: 1.18em;
+  overflow: scroll;
+}
+
+.btn {
+  width: 50px;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  border: none;
+  background-color: rgba(101, 119, 179, 1);
+  color: #fff;
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+.list-data {
+  width: 300px;
+  height: 40px;
+  background-color: rgba(101, 119, 179, .2);
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(101, 119, 179, .2);
+}
+
+
+.list-data-text{
+  overflow: scroll;
+  width: 270px;
+  /* border: 1px solid #000; */
+}
+
+.list-data-del{
+  color: red;
+  cursor: pointer;
+  font-size: 1.3em;
+  /* border: 1px solid ; */
+}
